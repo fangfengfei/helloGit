@@ -5,6 +5,7 @@ public class HelloGit {
     public static void main(String[] args) {
         System.out.println("feifei我是神");
         System.out.println("在线更新");
+        System.out.println("冲冲冲");
     }
 
 }
