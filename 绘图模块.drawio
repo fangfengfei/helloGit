@@ -1,17 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T04:00:00.466Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="sTnKFyYJN3jWVtiOe7FW" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T05:59:44.607Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="f_GecN2DX4GB2QyBDW2y" version="14.1.8" type="github">
   <diagram id="ar2vK6DzCe43jqtC_QXZ" name="第 1 页">
-    <mxGraphModel dx="942" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_QPw_0OSD-xxOuF4TyRC-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_QPw_0OSD-xxOuF4TyRC-1" target="_QPw_0OSD-xxOuF4TyRC-3">
+        <mxCell id="26NzWRgqNHz8Nd0e5YAE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_QPw_0OSD-xxOuF4TyRC-1" target="26NzWRgqNHz8Nd0e5YAE-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_QPw_0OSD-xxOuF4TyRC-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="_QPw_0OSD-xxOuF4TyRC-1" value="支付宝异步通知" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_QPw_0OSD-xxOuF4TyRC-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="200" width="40" height="20" as="geometry" />
+        <mxCell id="26NzWRgqNHz8Nd0e5YAE-1" value="支付微服务&lt;br&gt;更新支付表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="26NzWRgqNHz8Nd0e5YAE-3" value="订单微服务&lt;br&gt;更新订单表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="26NzWRgqNHz8Nd0e5YAE-5" value="仓库微服务&lt;br&gt;更新库存&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="26NzWRgqNHz8Nd0e5YAE-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26NzWRgqNHz8Nd0e5YAE-6" target="26NzWRgqNHz8Nd0e5YAE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26NzWRgqNHz8Nd0e5YAE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26NzWRgqNHz8Nd0e5YAE-6" target="26NzWRgqNHz8Nd0e5YAE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26NzWRgqNHz8Nd0e5YAE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26NzWRgqNHz8Nd0e5YAE-6" target="26NzWRgqNHz8Nd0e5YAE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26NzWRgqNHz8Nd0e5YAE-6" value="" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="399" y="445" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
